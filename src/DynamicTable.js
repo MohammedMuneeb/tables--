@@ -426,7 +426,7 @@ function AppendingForm (){
           
             </div > 
           {/* <div className =""><input type ="text" name ="author"placeholder ="Author "required /></div >  */} 
-          <div className =""><input type ="text" name =""placeholder ="Genres "/></div > 
+          <div className =""><input type ="text" name =""placeholder ="pages "/></div > 
           
           {/* <button onClick ={()=>setIsDialogOpen (false )}>Exit </button >  */} 
           
