@@ -413,19 +413,19 @@ function AppendingForm (){
                 <div className ="fixed inset-0 z-50 flex items-center justify-center"> 
          <div className ="bg-white p-6 rounded shadow-md"> 
           
-          <form onSubmit  ={handleSubmit } >  
+          <form onSubmit  ={handleSubmit }>  
           <div className =""><input type ="text" name="titles" placeholder="Title"required /></div > 
+          <div className =""><input type ="text" name ="author"placeholder ="Author "required /></div > 
           <div className =""><input 
           type ="text  " 
           name ="description" 
           placeholder ="Description" 
           //   class ="... invalid:[&:not(:placeholder-shown):not(:focus)]:border-red-700" 
         //   className ={`border ${formErrors.description ? 'border-red-500':""}`} 
-        //   required 
           /> 
           
             </div > 
-          <div className =""><input type ="text" name ="author"placeholder ="Author "required /></div > 
+          {/* <div className =""><input type ="text" name ="author"placeholder ="Author "required /></div >  */} 
           <div className =""><input type ="text" name =""placeholder ="Genres "/></div > 
           
           {/* <button onClick ={()=>setIsDialogOpen (false )}>Exit </button >  */} 
