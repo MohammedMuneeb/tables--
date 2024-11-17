@@ -503,11 +503,11 @@ function AppendingForm (){
                    Description 
                 </p > 
             </th > 
-            <th class="p-4 border-b border-slate-600 bg-slate-700">
+            {/* <th class="p-4 border-b border-slate-600 bg-slate-700">
                 <p class ="text-sm font-normal leading-none text-slate-300">
                    Genres 
                 </p > 
-            </th > 
+            </th >  */} 
             <th class="p-4 border-b border-slate-600 bg-slate-700">
                 <p class ="text-sm font-normal leading-none text-slate-300">
                    Pages 
